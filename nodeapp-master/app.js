@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 });
 
 var Sequelize = require("sequelize");
-var sequelize = new Sequelize('database', 'sheta');
+var sequelize = new Sequelize('database', 'data');
 
 var User = sequelize.define('User', {
 	userID: Sequelize.INTEGER,
